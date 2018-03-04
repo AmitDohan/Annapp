@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jb.dohan.amit.annapp.MainActivity"
+    style="@style/activityBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+      >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hi Fucker!"
+            android:textColor="#FFF"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnStyle"
+            android:layout_marginTop="30dp"
+            android:onClick="onClick_Style"
+            android:text="@string/welcome_click"
+            style="@style/buttonStyle"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

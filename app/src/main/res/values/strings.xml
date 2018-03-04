@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Annapp</string>
+    <string name="welcome_click">Welcome! (Click for a special welcome)</string>
+</resources>
