@@ -15,14 +15,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnStyle= findViewById(R.id.btnStyle);
+
     }
 
     public void onClick(View v){
-
 
     }
 
     public void onClick_Style(View v){
         startActivity(new Intent(this, StyleEx.class));
     }
+
 }

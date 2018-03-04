@@ -30,6 +30,12 @@
             android:text="@string/welcome_click"
             style="@style/buttonStyle"/>
 
+        <Button
+            android:id="@+id/button5"
+            style="@style/buttonStyle"
+            android:onClick="onClick"
+            android:text="Useless Button" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
