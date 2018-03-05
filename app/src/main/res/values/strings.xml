@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">Annapp</string>
+    <string name="app_name">Main Menu</string>
     <string name="welcome_click">Welcome! (Click for a special welcome)</string>
+
+    <string name="food_store">Food Store</string>
+    <string name="welcome">Welcome!</string>
+
 </resources>

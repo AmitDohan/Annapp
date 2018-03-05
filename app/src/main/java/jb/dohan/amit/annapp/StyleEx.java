@@ -22,6 +22,8 @@ public class StyleEx extends AppCompatActivity {
         ibBack= findViewById(R.id.ibBack);
         btnWelcome= findViewById(R.id.btnWelcome);
 
+        getSupportActionBar().setTitle("Welcome!");
+
     }
 
     public void onClick_Back(View v){

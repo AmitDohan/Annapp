@@ -31,10 +31,10 @@
             style="@style/buttonStyle"/>
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnFoodStore"
             style="@style/buttonStyle"
             android:onClick="onClick"
-            android:text="Useless Button" />
+            android:text="@string/food_store" />
 
     </LinearLayout>
 
